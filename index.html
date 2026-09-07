@@ -3,45 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>Charity: water | Make Waves</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a class="brand" href="#" aria-label="charity: water home">charity: water</a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#news">News</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+        <div class="nav-actions">
+            <a href="#login">Log in</a>
+            <a href="#give" class="donate-button">Give Clean Water</a>
         </div>
+    </header>
+
+    <!-- Featured image placed directly below the navigation -->
+    <section class="featured-image" aria-label="Community water project">
+        <img src="img/cw_Selects_16x9_16.jpg" alt="Community water project">
+        <img class="additional-featured-image" src="img/cw_Selects_16x9_5.jpg" alt="Community water project">
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="headline">
+            <p class="eyebrow">A student-powered movement</p>
+            <h1>Make waves.<br>Give water.<br>Change lives.</h1>
+        </div>
+
+        <section class="hero-content" aria-label="How to get involved">
+            <div class="hero-image">
+                <img src="img/cw_Selects_16x9_20.jpg" alt="Woman collecting clean water from a community tap">
+            </div>
+
+            <div class="hero-copy">
+                <div class="hero-text left-text">
+                    <p>Clean water starts with people willing to act. Join students using their voices, community, and creativity to turn donations into real-world impact.</p>
+                </div>
+
+                <div class="hero-text right-text">
+                    <p>Join students turning small actions into lasting impact. Fundraise, volunteer, and create while bringing your campus together to help provide clean drinking water.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hero-cta">
+            <a href="#join" class="cta-button">Join the Movement <span aria-hidden="true">&#8599;</span></a>
+        </div>
+
+        <div class="logo">
+            <img src="img/cw_logo-2.png" alt="charity: water logo">
+        </div>
+    </main>
 </body>
 </html>
